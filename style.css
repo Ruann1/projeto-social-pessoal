@@ -44,7 +44,15 @@ section#icone{
 
 section#icone img {
     border-radius: 50%;
-    width: 55px;
-    margin: 5px;
+    width: 50px;
+    margin: 6px;
     box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
 }
+
+section#icone img:hover{
+    border: 2px rgba(255, 255, 255, 0.568) solid;
+    transform: translate(-5px, -5px);
+    transition: transform .4s, border .4s;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.486);
+}   
