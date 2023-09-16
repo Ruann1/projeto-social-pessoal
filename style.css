@@ -47,8 +47,11 @@ section#icone img {
     width: 55px;
     margin: 5px;
     box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
 }
 
-section#icone a:hover {
-     transition: translate(-20px) scale(1.2);
+section#icone img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.933);
+    transform: translate(-5px, -5px); 
+    transition: transform .2s, border .3s;
 }
