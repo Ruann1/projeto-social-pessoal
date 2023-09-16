@@ -48,3 +48,7 @@ section#icone img {
     margin: 5px;
     box-shadow: 2px 2px 5px black;
 }
+
+section#icone a:hover {
+     transition: translate(-20px) scale(1.2);
+}
